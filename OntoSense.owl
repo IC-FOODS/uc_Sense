@@ -1,0 +1,2438 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/mateolan/ontologies/2016/3/untitled-ontology-5"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/mateolan/ontologies/2016/3/untitled-ontology-5">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#peceived_meat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_2-phenylehtanol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_acacia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_acetic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_acidic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_acidity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_adhesion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_alcohol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_alkalinity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_almond"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_apple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_apricot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_aroma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_astringency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_audio_stimulus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_bakelite_flavor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_bakers_chocolate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_banana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_barley"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_beef"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_bitterness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_bittersweet_chocolate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_black_currant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_black_pepper"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_black_tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_blueberry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_bread"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_burlap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_burnt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_burnt_rubber"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_butter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_butterscotch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_buttery_flavor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_buttery_odor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_butyric_flavor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_cacao_nibs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_caprylic_flavor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_capsaicin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_caramel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_carbolic_flavor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_carbonation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_cardboard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_cashew"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_catty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_celery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_cereal_flavor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_chalky"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_charcoal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_cheesy_flavor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_chemical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_cherry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_chewiness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_chicken"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_chlorophenol_flavor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_chocolate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_cinnamon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_citrus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_clementine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_clove"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_coating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_coconut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_coffee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_cold"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_color"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_concord_grape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_cooked_cabbage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_cooked_onion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_cooked_sweet_corn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_cooked_tomato"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_cooked_vegetable_flavor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_coriander"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_corn_grits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_cranberry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_creaminess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_cultured_cream"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_curry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_dark_chocolate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_diacetyl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_dill"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_dimethyl_sulfide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_direction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_dirt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_distance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_dried_apple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_dried_cherry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_dried_fruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_dried_mango"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_dried_pineapple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_dry_hop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_dryness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_earthy_aroma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_earthy_flavor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_effervence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_egg_yolk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_elasticity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_ester_flavor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_ester_odor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_ethanol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_ethyl_acetate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_ethyl_hexanoate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_fatty_acid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_fern"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_fig"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_flatness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_flavor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_floral_flavor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_floral_odor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_fragrance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_frequency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_fresh_grassiness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_fruity_flavor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_fruity_odor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_fullness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_gamey"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_garlic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_geraniol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_ginger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_graham_cracker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_grain_flavor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_granola"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_grape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_grape_must"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_grapefruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_grassiness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_green_apple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_green_grape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_green_tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_guava"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_hawthorne"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_hazelnut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_heat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_height"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_herbacious_aroma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_herbacious_flavor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_hibiscus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_honey"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_honeysuckle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_hop_flavor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_hop_odor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_hop_oil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_husk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_hydrogen_sulfide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_intensity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_isoamyl_acetate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_isoiodoform_flavor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_isovaleric_flavor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_jam-like"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_jasmine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_kettle_hop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_kiwi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_lacquer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_lamb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_lavender"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_leathery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_lemon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_lemongrass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_length"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_licorice_flavor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_lime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_loudness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_lychee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_maillard_flavor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_maillard_odor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_malt_odor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_maltiness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_mandarin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_mango"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_mealy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_melon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_mercaptan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_metallic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_milk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_milk_chocolate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_molasses_flavor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_moldy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_mossy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_mothballs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_mouthfeel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_mushroom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_musty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_nectarine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_nutmeg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_nuttiness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_off_odor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_oil_flavor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_olive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_orange_blossom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_orchid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_oversweet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_pain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_papaya"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_papery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_parching"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_parsnip"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_passion_fruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_peach"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_peanut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_pear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_pecan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_perfume"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_phenol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_pine_flavor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_pineapple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_plastics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_plum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_pork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_powdery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_prunes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_puckering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_raisin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_rancidity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_raspberry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_red_berry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_red_currant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_red_grape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_resinous_flavor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_roastiness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_rose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_rosemary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_rot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_rubbery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_rye"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_saltiness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_sensory_quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_shape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_sharpness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_shrimp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_size"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_smokiness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_smoothness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_solvent_flavor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_sour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_spiciness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_staleness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_starfruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_straw-like"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_straw-like_flavor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_strawberry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_sulfidic_flavor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_sulfitic_flavor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_sulfur_flavor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_sulfur_odor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_sweetness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_synthetic_flavor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_synthetic_odor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_syrupy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_tactile_stimulus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_tamarind"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_tangerine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_tarry_flavor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_texture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_thickness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_thinness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_thyme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_tobacco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_toffee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_tree_fruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_tropical_fruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_vanilla"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_vegetal_flavor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_vegetal_odor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_vine_fruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_vinous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_violet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_viscosity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_visual_appearance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_walnut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_watermelon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_wheat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_white_chocolate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_white_grape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_white_tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_width"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_woody"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_woody_flavor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_yeast_flavor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_yeast_odor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_yeasty"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#peceived_meat"/>
+        <Class IRI="#perceived_sulfitic_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_2-phenylehtanol"/>
+        <Class IRI="#perceived_floral_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_2-phenylehtanol"/>
+        <Class IRI="#perceived_floral_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_acacia"/>
+        <Class IRI="#perceived_herbacious_aroma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_acacia"/>
+        <Class IRI="#perceived_herbacious_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_acetic"/>
+        <Class IRI="#perceived_acidity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_acidic"/>
+        <Class IRI="#perceived_acidity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_acidity"/>
+        <Class IRI="#perceived_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_adhesion"/>
+        <Class IRI="#perceived_viscosity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_alcohol"/>
+        <Class IRI="#perceived_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_alkalinity"/>
+        <Class IRI="#perceived_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_almond"/>
+        <Class IRI="#perceived_nuttiness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_apple"/>
+        <Class IRI="#perceived_tree_fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_apricot"/>
+        <Class IRI="#perceived_tree_fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_aroma"/>
+        <Class IRI="#perceived_sensory_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_astringency"/>
+        <Class IRI="#perceived_mouthfeel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_audio_stimulus"/>
+        <Class IRI="#perceived_sensory_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_bakelite_flavor"/>
+        <Class IRI="#perceived_phenol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_bakers_chocolate"/>
+        <Class IRI="#perceived_chocolate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_banana"/>
+        <Class IRI="#perceived_tropical_fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_barley"/>
+        <Class IRI="#perceived_cereal_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_barley"/>
+        <Class IRI="#perceived_malt_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_beef"/>
+        <Class IRI="#peceived_meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_bitterness"/>
+        <Class IRI="#perceived_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_bittersweet_chocolate"/>
+        <Class IRI="#perceived_chocolate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_black_currant"/>
+        <Class IRI="#perceived_red_berry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_black_pepper"/>
+        <Class IRI="#perceived_herbacious_aroma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_black_pepper"/>
+        <Class IRI="#perceived_herbacious_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_black_tea"/>
+        <Class IRI="#perceived_tea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_blueberry"/>
+        <Class IRI="#perceived_fruity_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_blueberry"/>
+        <Class IRI="#perceived_fruity_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_bread"/>
+        <Class IRI="#perceived_cereal_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_bread"/>
+        <Class IRI="#perceived_malt_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_burlap"/>
+        <Class IRI="#perceived_earthy_aroma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_burlap"/>
+        <Class IRI="#perceived_earthy_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_burnt"/>
+        <Class IRI="#perceived_maillard_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_burnt"/>
+        <Class IRI="#perceived_maillard_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_burnt_rubber"/>
+        <Class IRI="#perceived_sulfidic_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_butter"/>
+        <Class IRI="#perceived_buttery_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_butter"/>
+        <Class IRI="#perceived_buttery_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_butterscotch"/>
+        <Class IRI="#perceived_buttery_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_butterscotch"/>
+        <Class IRI="#perceived_buttery_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_buttery_flavor"/>
+        <Class IRI="#perceived_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_buttery_odor"/>
+        <Class IRI="#perceived_fragrance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_butyric_flavor"/>
+        <Class IRI="#perceived_fatty_acid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_cacao_nibs"/>
+        <Class IRI="#perceived_chocolate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_caprylic_flavor"/>
+        <Class IRI="#perceived_fatty_acid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_capsaicin"/>
+        <Class IRI="#perceived_spiciness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_caramel"/>
+        <Class IRI="#perceived_buttery_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_caramel"/>
+        <Class IRI="#perceived_buttery_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_carbolic_flavor"/>
+        <Class IRI="#perceived_phenol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_carbonation"/>
+        <Class IRI="#perceived_effervence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_cardboard"/>
+        <Class IRI="#perceived_earthy_aroma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_cardboard"/>
+        <Class IRI="#perceived_earthy_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_cashew"/>
+        <Class IRI="#perceived_nuttiness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_catty"/>
+        <Class IRI="#perceived_off_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_catty"/>
+        <Class IRI="#perceived_staleness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_celery"/>
+        <Class IRI="#perceived_cooked_vegetable_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_cereal_flavor"/>
+        <Class IRI="#perceived_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_chalky"/>
+        <Class IRI="#perceived_alkalinity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_charcoal"/>
+        <Class IRI="#perceived_maillard_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_charcoal"/>
+        <Class IRI="#perceived_maillard_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_cheesy_flavor"/>
+        <Class IRI="#perceived_fatty_acid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_chemical"/>
+        <Class IRI="#perceived_synthetic_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_chemical"/>
+        <Class IRI="#perceived_synthetic_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_cherry"/>
+        <Class IRI="#perceived_tree_fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_chewiness"/>
+        <Class IRI="#perceived_mouthfeel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_chicken"/>
+        <Class IRI="#peceived_meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_chlorophenol_flavor"/>
+        <Class IRI="#perceived_phenol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_chocolate"/>
+        <Class IRI="#perceived_maillard_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_chocolate"/>
+        <Class IRI="#perceived_maillard_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_cinnamon"/>
+        <Class IRI="#perceived_herbacious_aroma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_cinnamon"/>
+        <Class IRI="#perceived_herbacious_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_citrus"/>
+        <Class IRI="#perceived_fruity_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_citrus"/>
+        <Class IRI="#perceived_fruity_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_clementine"/>
+        <Class IRI="#perceived_citrus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_clove"/>
+        <Class IRI="#perceived_herbacious_aroma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_clove"/>
+        <Class IRI="#perceived_herbacious_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_coating"/>
+        <Class IRI="#perceived_mouthfeel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_coconut"/>
+        <Class IRI="#perceived_nuttiness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_coffee"/>
+        <Class IRI="#perceived_maillard_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_coffee"/>
+        <Class IRI="#perceived_maillard_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_cold"/>
+        <Class IRI="#perceived_tactile_stimulus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_color"/>
+        <Class IRI="#perceived_visual_appearance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_concord_grape"/>
+        <Class IRI="#perceived_grape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_cooked_cabbage"/>
+        <Class IRI="#perceived_cooked_vegetable_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_cooked_onion"/>
+        <Class IRI="#perceived_cooked_vegetable_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_cooked_sweet_corn"/>
+        <Class IRI="#perceived_cooked_vegetable_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_cooked_tomato"/>
+        <Class IRI="#perceived_cooked_vegetable_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_cooked_vegetable_flavor"/>
+        <Class IRI="#perceived_sulfur_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_cooked_vegetable_flavor"/>
+        <Class IRI="#perceived_sulfur_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_coriander"/>
+        <Class IRI="#perceived_herbacious_aroma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_coriander"/>
+        <Class IRI="#perceived_herbacious_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_corn_grits"/>
+        <Class IRI="#perceived_grain_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_cranberry"/>
+        <Class IRI="#perceived_red_berry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_creaminess"/>
+        <Class IRI="#perceived_mouthfeel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_cultured_cream"/>
+        <Class IRI="#perceived_buttery_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_cultured_cream"/>
+        <Class IRI="#perceived_buttery_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_curry"/>
+        <Class IRI="#perceived_herbacious_aroma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_curry"/>
+        <Class IRI="#perceived_herbacious_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_dark_chocolate"/>
+        <Class IRI="#perceived_chocolate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_diacetyl"/>
+        <Class IRI="#perceived_fatty_acid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_dill"/>
+        <Class IRI="#perceived_herbacious_aroma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_dill"/>
+        <Class IRI="#perceived_herbacious_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_dimethyl_sulfide"/>
+        <Class IRI="#perceived_cooked_vegetable_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_direction"/>
+        <Class IRI="#perceived_aroma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_direction"/>
+        <Class IRI="#perceived_audio_stimulus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_direction"/>
+        <Class IRI="#perceived_visual_appearance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_dirt"/>
+        <Class IRI="#perceived_earthy_aroma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_dirt"/>
+        <Class IRI="#perceived_earthy_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_distance"/>
+        <Class IRI="#perceived_audio_stimulus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_distance"/>
+        <Class IRI="#perceived_visual_appearance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_dried_apple"/>
+        <Class IRI="#perceived_dried_fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_dried_cherry"/>
+        <Class IRI="#perceived_dried_fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_dried_fruit"/>
+        <Class IRI="#perceived_fruity_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_dried_fruit"/>
+        <Class IRI="#perceived_fruity_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_dried_mango"/>
+        <Class IRI="#perceived_dried_fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_dried_pineapple"/>
+        <Class IRI="#perceived_dried_fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_dry_hop"/>
+        <Class IRI="#perceived_hop_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_dry_hop"/>
+        <Class IRI="#perceived_hop_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_dryness"/>
+        <Class IRI="#perceived_alkalinity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_dryness"/>
+        <Class IRI="#perceived_mouthfeel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_earthy_aroma"/>
+        <Class IRI="#perceived_fragrance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_earthy_flavor"/>
+        <Class IRI="#perceived_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_effervence"/>
+        <Class IRI="#perceived_audio_stimulus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_effervence"/>
+        <Class IRI="#perceived_mouthfeel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_effervence"/>
+        <Class IRI="#perceived_visual_appearance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_egg_yolk"/>
+        <Class IRI="#perceived_buttery_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_egg_yolk"/>
+        <Class IRI="#perceived_buttery_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_elasticity"/>
+        <Class IRI="#perceived_sensory_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_ester_flavor"/>
+        <Class IRI="#perceived_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_ester_odor"/>
+        <Class IRI="#perceived_fragrance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_ethanol"/>
+        <Class IRI="#perceived_alcohol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_ethyl_acetate"/>
+        <Class IRI="#perceived_ester_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_ethyl_acetate"/>
+        <Class IRI="#perceived_ester_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_ethyl_hexanoate"/>
+        <Class IRI="#perceived_ester_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_ethyl_hexanoate"/>
+        <Class IRI="#perceived_ester_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_fatty_acid"/>
+        <Class IRI="#perceived_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_fern"/>
+        <Class IRI="#perceived_earthy_aroma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_fern"/>
+        <Class IRI="#perceived_earthy_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_fig"/>
+        <Class IRI="#perceived_tree_fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_flatness"/>
+        <Class IRI="#perceived_effervence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_flavor"/>
+        <Class IRI="#perceived_sensory_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_floral_flavor"/>
+        <Class IRI="#perceived_vegetal_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_floral_odor"/>
+        <Class IRI="#perceived_vegetal_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_fragrance"/>
+        <Class IRI="#perceived_aroma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_frequency"/>
+        <Class IRI="#perceived_audio_stimulus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_fresh_grassiness"/>
+        <Class IRI="#perceived_grassiness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_fruity_flavor"/>
+        <Class IRI="#perceived_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_fruity_odor"/>
+        <Class IRI="#perceived_fragrance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_gamey"/>
+        <Class IRI="#peceived_meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_garlic"/>
+        <Class IRI="#perceived_sulfidic_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_geraniol"/>
+        <Class IRI="#perceived_floral_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_geraniol"/>
+        <Class IRI="#perceived_floral_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_ginger"/>
+        <Class IRI="#perceived_herbacious_aroma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_ginger"/>
+        <Class IRI="#perceived_herbacious_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_graham_cracker"/>
+        <Class IRI="#perceived_cereal_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_graham_cracker"/>
+        <Class IRI="#perceived_malt_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_grain_flavor"/>
+        <Class IRI="#perceived_cereal_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_grain_flavor"/>
+        <Class IRI="#perceived_malt_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_granola"/>
+        <Class IRI="#perceived_cereal_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_granola"/>
+        <Class IRI="#perceived_malt_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_grape"/>
+        <Class IRI="#perceived_vine_fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_grape_must"/>
+        <Class IRI="#perceived_fruity_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_grape_must"/>
+        <Class IRI="#perceived_fruity_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_grapefruit"/>
+        <Class IRI="#perceived_citrus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_grassiness"/>
+        <Class IRI="#perceived_vegetal_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_grassiness"/>
+        <Class IRI="#perceived_vegetal_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_green_apple"/>
+        <Class IRI="#perceived_tree_fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_green_grape"/>
+        <Class IRI="#perceived_grape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_green_tea"/>
+        <Class IRI="#perceived_tea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_guava"/>
+        <Class IRI="#perceived_tropical_fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_hawthorne"/>
+        <Class IRI="#perceived_herbacious_aroma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_hawthorne"/>
+        <Class IRI="#perceived_herbacious_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_hazelnut"/>
+        <Class IRI="#perceived_nuttiness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_heat"/>
+        <Class IRI="#perceived_tactile_stimulus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_height"/>
+        <Class IRI="#perceived_shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_height"/>
+        <Class IRI="#perceived_size"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_herbacious_aroma"/>
+        <Class IRI="#perceived_vegetal_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_herbacious_flavor"/>
+        <Class IRI="#perceived_vegetal_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_hibiscus"/>
+        <Class IRI="#perceived_floral_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_hibiscus"/>
+        <Class IRI="#perceived_floral_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_honey"/>
+        <Class IRI="#perceived_sweetness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_honeysuckle"/>
+        <Class IRI="#perceived_herbacious_aroma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_honeysuckle"/>
+        <Class IRI="#perceived_herbacious_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_hop_flavor"/>
+        <Class IRI="#perceived_vegetal_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_hop_odor"/>
+        <Class IRI="#perceived_vegetal_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_hop_oil"/>
+        <Class IRI="#perceived_hop_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_hop_oil"/>
+        <Class IRI="#perceived_hop_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_husk"/>
+        <Class IRI="#perceived_grain_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_hydrogen_sulfide"/>
+        <Class IRI="#perceived_sulfidic_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_intensity"/>
+        <Class IRI="#perceived_aroma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_isoamyl_acetate"/>
+        <Class IRI="#perceived_ester_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_isoamyl_acetate"/>
+        <Class IRI="#perceived_ester_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_isoiodoform_flavor"/>
+        <Class IRI="#perceived_phenol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_isovaleric_flavor"/>
+        <Class IRI="#perceived_fatty_acid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_jam-like"/>
+        <Class IRI="#perceived_sweetness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_jasmine"/>
+        <Class IRI="#perceived_floral_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_jasmine"/>
+        <Class IRI="#perceived_floral_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_kettle_hop"/>
+        <Class IRI="#perceived_hop_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_kettle_hop"/>
+        <Class IRI="#perceived_hop_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_kiwi"/>
+        <Class IRI="#perceived_tropical_fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_lacquer"/>
+        <Class IRI="#perceived_solvent_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_lamb"/>
+        <Class IRI="#peceived_meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_lavender"/>
+        <Class IRI="#perceived_herbacious_aroma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_lavender"/>
+        <Class IRI="#perceived_herbacious_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_leathery"/>
+        <Class IRI="#perceived_mouthfeel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_leathery"/>
+        <Class IRI="#perceived_off_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_leathery"/>
+        <Class IRI="#perceived_staleness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_leathery"/>
+        <Class IRI="#perceived_texture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_lemon"/>
+        <Class IRI="#perceived_citrus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_lemongrass"/>
+        <Class IRI="#perceived_floral_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_lemongrass"/>
+        <Class IRI="#perceived_floral_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_length"/>
+        <Class IRI="#perceived_shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_length"/>
+        <Class IRI="#perceived_size"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_licorice_flavor"/>
+        <Class IRI="#perceived_maillard_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_licorice_flavor"/>
+        <Class IRI="#perceived_maillard_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_lime"/>
+        <Class IRI="#perceived_citrus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_loudness"/>
+        <Class IRI="#perceived_audio_stimulus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_lychee"/>
+        <Class IRI="#perceived_tropical_fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_maillard_flavor"/>
+        <Class IRI="#perceived_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_maillard_odor"/>
+        <Class IRI="#perceived_fragrance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_malt_odor"/>
+        <Class IRI="#perceived_fragrance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_maltiness"/>
+        <Class IRI="#perceived_cereal_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_maltiness"/>
+        <Class IRI="#perceived_malt_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_mandarin"/>
+        <Class IRI="#perceived_citrus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_mango"/>
+        <Class IRI="#perceived_tropical_fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_mealy"/>
+        <Class IRI="#perceived_grain_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_mealy"/>
+        <Class IRI="#perceived_mouthfeel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_mealy"/>
+        <Class IRI="#perceived_texture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_melon"/>
+        <Class IRI="#perceived_tropical_fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_mercaptan"/>
+        <Class IRI="#perceived_sulfidic_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_metallic"/>
+        <Class IRI="#perceived_synthetic_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_metallic"/>
+        <Class IRI="#perceived_synthetic_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_milk"/>
+        <Class IRI="#perceived_buttery_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_milk"/>
+        <Class IRI="#perceived_buttery_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_milk_chocolate"/>
+        <Class IRI="#perceived_chocolate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_molasses_flavor"/>
+        <Class IRI="#perceived_maillard_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_molasses_flavor"/>
+        <Class IRI="#perceived_maillard_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_moldy"/>
+        <Class IRI="#perceived_off_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_moldy"/>
+        <Class IRI="#perceived_staleness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_mossy"/>
+        <Class IRI="#perceived_earthy_aroma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_mossy"/>
+        <Class IRI="#perceived_earthy_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_mothballs"/>
+        <Class IRI="#perceived_synthetic_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_mothballs"/>
+        <Class IRI="#perceived_synthetic_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_mouthfeel"/>
+        <Class IRI="#perceived_audio_stimulus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_mouthfeel"/>
+        <Class IRI="#perceived_sensory_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_mouthfeel"/>
+        <Class IRI="#perceived_spiciness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_mouthfeel"/>
+        <Class IRI="#perceived_texture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_mushroom"/>
+        <Class IRI="#perceived_earthy_aroma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_mushroom"/>
+        <Class IRI="#perceived_earthy_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_musty"/>
+        <Class IRI="#perceived_off_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_musty"/>
+        <Class IRI="#perceived_staleness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_nectarine"/>
+        <Class IRI="#perceived_tree_fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_nutmeg"/>
+        <Class IRI="#perceived_herbacious_aroma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_nutmeg"/>
+        <Class IRI="#perceived_herbacious_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_nuttiness"/>
+        <Class IRI="#perceived_vegetal_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_nuttiness"/>
+        <Class IRI="#perceived_vegetal_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_off_odor"/>
+        <Class IRI="#perceived_fragrance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_oil_flavor"/>
+        <Class IRI="#perceived_fatty_acid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_olive"/>
+        <Class IRI="#perceived_earthy_aroma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_olive"/>
+        <Class IRI="#perceived_earthy_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_orange_blossom"/>
+        <Class IRI="#perceived_floral_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_orange_blossom"/>
+        <Class IRI="#perceived_floral_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_orchid"/>
+        <Class IRI="#perceived_floral_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_orchid"/>
+        <Class IRI="#perceived_floral_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_oversweet"/>
+        <Class IRI="#perceived_sweetness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_pain"/>
+        <Class IRI="#perceived_tactile_stimulus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_papaya"/>
+        <Class IRI="#perceived_tropical_fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_papery"/>
+        <Class IRI="#perceived_mouthfeel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_papery"/>
+        <Class IRI="#perceived_off_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_papery"/>
+        <Class IRI="#perceived_staleness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_papery"/>
+        <Class IRI="#perceived_texture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_parching"/>
+        <Class IRI="#perceived_mouthfeel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_parsnip"/>
+        <Class IRI="#perceived_cooked_vegetable_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_passion_fruit"/>
+        <Class IRI="#perceived_tropical_fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_peach"/>
+        <Class IRI="#perceived_tree_fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_peanut"/>
+        <Class IRI="#perceived_nuttiness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_pear"/>
+        <Class IRI="#perceived_tree_fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_pecan"/>
+        <Class IRI="#perceived_nuttiness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_perfume"/>
+        <Class IRI="#perceived_floral_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_perfume"/>
+        <Class IRI="#perceived_floral_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_phenol"/>
+        <Class IRI="#perceived_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_pine_flavor"/>
+        <Class IRI="#perceived_resinous_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_pineapple"/>
+        <Class IRI="#perceived_tropical_fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_plastics"/>
+        <Class IRI="#perceived_solvent_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_plastics"/>
+        <Class IRI="#perceived_synthetic_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_plastics"/>
+        <Class IRI="#perceived_synthetic_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_plum"/>
+        <Class IRI="#perceived_tree_fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_pork"/>
+        <Class IRI="#peceived_meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_powdery"/>
+        <Class IRI="#perceived_alkalinity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_powdery"/>
+        <Class IRI="#perceived_mouthfeel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_powdery"/>
+        <Class IRI="#perceived_texture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_prunes"/>
+        <Class IRI="#perceived_dried_fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_puckering"/>
+        <Class IRI="#perceived_mouthfeel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_raisin"/>
+        <Class IRI="#perceived_dried_fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_rancidity"/>
+        <Class IRI="#perceived_fatty_acid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_raspberry"/>
+        <Class IRI="#perceived_red_berry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_red_berry"/>
+        <Class IRI="#perceived_fruity_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_red_berry"/>
+        <Class IRI="#perceived_fruity_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_red_currant"/>
+        <Class IRI="#perceived_red_berry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_red_grape"/>
+        <Class IRI="#perceived_grape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_resinous_flavor"/>
+        <Class IRI="#perceived_vegetal_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_resinous_flavor"/>
+        <Class IRI="#perceived_vegetal_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_roastiness"/>
+        <Class IRI="#perceived_maillard_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_roastiness"/>
+        <Class IRI="#perceived_maillard_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_rose"/>
+        <Class IRI="#perceived_floral_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_rose"/>
+        <Class IRI="#perceived_floral_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_rosemary"/>
+        <Class IRI="#perceived_herbacious_aroma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_rosemary"/>
+        <Class IRI="#perceived_herbacious_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_rot"/>
+        <Class IRI="#perceived_off_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_rubbery"/>
+        <Class IRI="#perceived_synthetic_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_rubbery"/>
+        <Class IRI="#perceived_synthetic_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_rye"/>
+        <Class IRI="#perceived_cereal_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_rye"/>
+        <Class IRI="#perceived_malt_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_saltiness"/>
+        <Class IRI="#perceived_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_shape"/>
+        <Class IRI="#perceived_visual_appearance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_sharpness"/>
+        <Class IRI="#perceived_mouthfeel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_sharpness"/>
+        <Class IRI="#perceived_tactile_stimulus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_shrimp"/>
+        <Class IRI="#perceived_sulfidic_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_size"/>
+        <Class IRI="#perceived_visual_appearance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_smokiness"/>
+        <Class IRI="#perceived_maillard_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_smokiness"/>
+        <Class IRI="#perceived_maillard_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_smoothness"/>
+        <Class IRI="#perceived_mouthfeel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_smoothness"/>
+        <Class IRI="#perceived_tactile_stimulus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_solvent_flavor"/>
+        <Class IRI="#perceived_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_sour"/>
+        <Class IRI="#perceived_acidity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_spiciness"/>
+        <Class IRI="#perceived_sensory_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_staleness"/>
+        <Class IRI="#perceived_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_starfruit"/>
+        <Class IRI="#perceived_tropical_fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_straw-like"/>
+        <Class IRI="#perceived_earthy_aroma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_straw-like"/>
+        <Class IRI="#perceived_earthy_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_straw-like_flavor"/>
+        <Class IRI="#perceived_grassiness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_strawberry"/>
+        <Class IRI="#perceived_red_berry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_sulfidic_flavor"/>
+        <Class IRI="#perceived_sulfur_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_sulfidic_flavor"/>
+        <Class IRI="#perceived_sulfur_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_sulfitic_flavor"/>
+        <Class IRI="#perceived_sulfur_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_sulfitic_flavor"/>
+        <Class IRI="#perceived_sulfur_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_sulfur_flavor"/>
+        <Class IRI="#perceived_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_sulfur_odor"/>
+        <Class IRI="#perceived_fragrance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_sweetness"/>
+        <Class IRI="#perceived_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_synthetic_flavor"/>
+        <Class IRI="#perceived_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_synthetic_odor"/>
+        <Class IRI="#perceived_fragrance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_syrupy"/>
+        <Class IRI="#perceived_sweetness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_tactile_stimulus"/>
+        <Class IRI="#perceived_texture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_tamarind"/>
+        <Class IRI="#perceived_tropical_fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_tangerine"/>
+        <Class IRI="#perceived_citrus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_tarry_flavor"/>
+        <Class IRI="#perceived_phenol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_tea"/>
+        <Class IRI="#perceived_herbacious_aroma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_tea"/>
+        <Class IRI="#perceived_herbacious_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_texture"/>
+        <Class IRI="#perceived_sensory_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_thickness"/>
+        <Class IRI="#perceived_mouthfeel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_thickness"/>
+        <Class IRI="#perceived_viscosity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_thinness"/>
+        <Class IRI="#perceived_mouthfeel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_thinness"/>
+        <Class IRI="#perceived_viscosity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_thyme"/>
+        <Class IRI="#perceived_herbacious_aroma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_thyme"/>
+        <Class IRI="#perceived_herbacious_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_tobacco"/>
+        <Class IRI="#perceived_earthy_aroma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_tobacco"/>
+        <Class IRI="#perceived_earthy_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_toffee"/>
+        <Class IRI="#perceived_buttery_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_toffee"/>
+        <Class IRI="#perceived_buttery_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_tree_fruit"/>
+        <Class IRI="#perceived_fruity_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_tree_fruit"/>
+        <Class IRI="#perceived_fruity_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_tropical_fruit"/>
+        <Class IRI="#perceived_fruity_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_tropical_fruit"/>
+        <Class IRI="#perceived_fruity_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_vanilla"/>
+        <Class IRI="#perceived_sweetness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_vegetal_flavor"/>
+        <Class IRI="#perceived_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_vegetal_odor"/>
+        <Class IRI="#perceived_fragrance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_vine_fruit"/>
+        <Class IRI="#perceived_fruity_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_vine_fruit"/>
+        <Class IRI="#perceived_fruity_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_vinous"/>
+        <Class IRI="#perceived_alcohol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_violet"/>
+        <Class IRI="#perceived_herbacious_aroma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_violet"/>
+        <Class IRI="#perceived_herbacious_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_viscosity"/>
+        <Class IRI="#perceived_sensory_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_visual_appearance"/>
+        <Class IRI="#perceived_sensory_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_walnut"/>
+        <Class IRI="#perceived_nuttiness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_watermelon"/>
+        <Class IRI="#perceived_vine_fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_wheat"/>
+        <Class IRI="#perceived_cereal_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_wheat"/>
+        <Class IRI="#perceived_malt_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_white_chocolate"/>
+        <Class IRI="#perceived_chocolate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_white_grape"/>
+        <Class IRI="#perceived_grape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_white_tea"/>
+        <Class IRI="#perceived_tea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_width"/>
+        <Class IRI="#perceived_shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_width"/>
+        <Class IRI="#perceived_size"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_woody"/>
+        <Class IRI="#perceived_earthy_aroma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_woody"/>
+        <Class IRI="#perceived_earthy_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_woody_flavor"/>
+        <Class IRI="#perceived_resinous_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_yeast_flavor"/>
+        <Class IRI="#perceived_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_yeast_odor"/>
+        <Class IRI="#perceived_fragrance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_yeasty"/>
+        <Class IRI="#perceived_off_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_yeasty"/>
+        <Class IRI="#perceived_staleness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_yeasty"/>
+        <Class IRI="#perceived_yeast_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_yeasty"/>
+        <Class IRI="#perceived_yeast_odor"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+
