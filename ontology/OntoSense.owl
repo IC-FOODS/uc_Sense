@@ -24,6 +24,7 @@
     <Import>file:/imports/ro_import.owl</Import>
     <Import>file:/imports/bfo_import.owl</Import>
     <Import>file:/imports/uberon_import.owl</Import>
+    <Import>http://www.semanticweb.org/mateolan/ontologies/2016/3/untitled-ontology-5</Import>
     <Import>file:/imports/envo_import.owl</Import>
     <Import>file:/imports/chebi_import.owl</Import>
     <Declaration>
@@ -31,6 +32,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#perceived_aroma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_aroma_location"/>
     </Declaration>
     <Declaration>
         <Class IRI="#perceived_audio_stimulus"/>
@@ -88,6 +92,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#perceived_mouthfeel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_odor"/>
     </Declaration>
     <Declaration>
         <Class IRI="#perceived_parching"/>
@@ -137,6 +144,10 @@
         <Class IRI="#perceived_sensory_stumilus"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#perceived_aroma_location"/>
+        <Class IRI="#perceived_aroma"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#perceived_audio_stimulus"/>
         <Class IRI="#perceived_sensory_stumilus"/>
     </SubClassOf>
@@ -186,7 +197,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_food_matrix"/>
-        <Class IRI="#sensory_perception_process"/>
+        <Class IRI="#perceived_audio_stimulus"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_fullness"/>
@@ -227,6 +238,10 @@
     <SubClassOf>
         <Class IRI="#perceived_mouthfeel"/>
         <Class IRI="#perceived_texture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_odor"/>
+        <Class IRI="#perceived_aroma"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_parching"/>

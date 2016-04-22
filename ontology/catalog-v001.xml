@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://www.semanticweb.org/mateolan/ontologies/2016/3/untitled-ontology-5" uri="file:/C:/Users/mateolan/Box%20Sync/Sensory%20Ontology/OntoSense.owl"/>
     <uri id="Imports Wizard Entry" name="file:/imports/uberon_import.owl" uri="imports/uberon_import.owl"/>
     <uri id="Imports Wizard Entry" name="file:/imports/ro_import.owl" uri="imports/ro_import.owl"/>
     <uri id="Imports Wizard Entry" name="file:/imports/envo_import.owl" uri="imports/envo_import.owl"/>
