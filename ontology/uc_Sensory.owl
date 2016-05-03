@@ -21,6 +21,14 @@
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>file:/imports/ro_import.owl</Import>
+    <Import>file:/imports/bfo_import.owl</Import>
+    <Import>file:/imports/uberon_import.owl</Import>
+    <Import>file:/imports/envo_import.owl</Import>
+    <Import>file:/imports/chebi_import.owl</Import>
+    <Declaration>
+        <Class IRI="#behavioral_process"/>
+    </Declaration>
     <Declaration>
         <Class IRI="#peceived_meat"/>
     </Declaration>
@@ -217,6 +225,12 @@
         <Class IRI="#perceived_concord_grape"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#perceived_contours"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_contrast"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#perceived_cooked_cabbage"/>
     </Declaration>
     <Declaration>
@@ -244,6 +258,9 @@
         <Class IRI="#perceived_creaminess"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#perceived_crunchy"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#perceived_cultured_cream"/>
     </Declaration>
     <Declaration>
@@ -260,9 +277,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#perceived_dimethyl_sulfide"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#perceived_direction"/>
     </Declaration>
     <Declaration>
         <Class IRI="#perceived_dirt"/>
@@ -307,6 +321,9 @@
         <Class IRI="#perceived_elasticity"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#perceived_electromagnetic_radiation"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#perceived_ester_flavor"/>
     </Declaration>
     <Declaration>
@@ -341,9 +358,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#perceived_floral_odor"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#perceived_fragrance"/>
     </Declaration>
     <Declaration>
         <Class IRI="#perceived_frequency"/>
@@ -406,6 +420,9 @@
         <Class IRI="#perceived_guava"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#perceived_hard"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#perceived_hawthorne"/>
     </Declaration>
     <Declaration>
@@ -440,6 +457,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#perceived_hop_oil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_hue"/>
     </Declaration>
     <Declaration>
         <Class IRI="#perceived_husk"/>
@@ -571,6 +591,9 @@
         <Class IRI="#perceived_nuttiness"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#perceived_odor"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#perceived_off_odor"/>
     </Declaration>
     <Declaration>
@@ -691,6 +714,9 @@
         <Class IRI="#perceived_saltiness"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#perceived_saturation"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#perceived_sensory_quality"/>
     </Declaration>
     <Declaration>
@@ -712,6 +738,9 @@
         <Class IRI="#perceived_smoothness"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#perceived_soft"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#perceived_solvent_flavor"/>
     </Declaration>
     <Declaration>
@@ -725,6 +754,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#perceived_starfruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_stimulus_location"/>
     </Declaration>
     <Declaration>
         <Class IRI="#perceived_straw-like"/>
@@ -775,6 +807,9 @@
         <Class IRI="#perceived_tea"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#perceived_temperature"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#perceived_texture"/>
     </Declaration>
     <Declaration>
@@ -820,7 +855,10 @@
         <Class IRI="#perceived_viscosity"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#perceived_visual_appearance"/>
+        <Class IRI="#perceived_visible_light"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceived_visual_stimulus"/>
     </Declaration>
     <Declaration>
         <Class IRI="#perceived_walnut"/>
@@ -858,6 +896,13 @@
     <Declaration>
         <Class IRI="#perceived_yeasty"/>
     </Declaration>
+    <Declaration>
+        <Class IRI="#sensory_perception_process"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#behavioral_process"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0008150"/>
+    </SubClassOf>
     <SubClassOf>
         <Class IRI="#peceived_meat"/>
         <Class IRI="#perceived_sulfitic_flavor"/>
@@ -1032,7 +1077,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_buttery_odor"/>
-        <Class IRI="#perceived_fragrance"/>
+        <Class IRI="#perceived_odor"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_butyric_flavor"/>
@@ -1188,15 +1233,27 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_cold"/>
-        <Class IRI="#perceived_tactile_stimulus"/>
+        <Class IRI="#perceived_temperature"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_color"/>
-        <Class IRI="#perceived_visual_appearance"/>
+        <Class IRI="#perceived_visible_light"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_concord_grape"/>
         <Class IRI="#perceived_grape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_contours"/>
+        <Class IRI="#perceived_tactile_stimulus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_contours"/>
+        <Class IRI="#perceived_visual_stimulus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_contrast"/>
+        <Class IRI="#perceived_visible_light"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_cooked_cabbage"/>
@@ -1243,6 +1300,10 @@
         <Class IRI="#perceived_mouthfeel"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#perceived_crunchy"/>
+        <Class IRI="#perceived_mouthfeel"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#perceived_cultured_cream"/>
         <Class IRI="#perceived_buttery_flavor"/>
     </SubClassOf>
@@ -1279,18 +1340,6 @@
         <Class IRI="#perceived_cooked_vegetable_flavor"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#perceived_direction"/>
-        <Class IRI="#perceived_aroma"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#perceived_direction"/>
-        <Class IRI="#perceived_audio_stimulus"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#perceived_direction"/>
-        <Class IRI="#perceived_visual_appearance"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#perceived_dirt"/>
         <Class IRI="#perceived_earthy_aroma"/>
     </SubClassOf>
@@ -1304,7 +1353,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_distance"/>
-        <Class IRI="#perceived_visual_appearance"/>
+        <Class IRI="#perceived_visual_stimulus"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_dried_apple"/>
@@ -1348,7 +1397,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_earthy_aroma"/>
-        <Class IRI="#perceived_fragrance"/>
+        <Class IRI="#perceived_odor"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_earthy_flavor"/>
@@ -1364,7 +1413,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_effervence"/>
-        <Class IRI="#perceived_visual_appearance"/>
+        <Class IRI="#perceived_visual_stimulus"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_egg_yolk"/>
@@ -1376,7 +1425,27 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_elasticity"/>
+        <Class IRI="#perceived_audio_stimulus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_elasticity"/>
+        <Class IRI="#perceived_mouthfeel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_elasticity"/>
         <Class IRI="#perceived_sensory_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_elasticity"/>
+        <Class IRI="#perceived_texture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_elasticity"/>
+        <Class IRI="#perceived_visual_stimulus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_electromagnetic_radiation"/>
+        <Class IRI="#perceived_visual_stimulus"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_ester_flavor"/>
@@ -1384,7 +1453,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_ester_odor"/>
-        <Class IRI="#perceived_fragrance"/>
+        <Class IRI="#perceived_odor"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_ethanol"/>
@@ -1439,10 +1508,6 @@
         <Class IRI="#perceived_vegetal_odor"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#perceived_fragrance"/>
-        <Class IRI="#perceived_aroma"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#perceived_frequency"/>
         <Class IRI="#perceived_audio_stimulus"/>
     </SubClassOf>
@@ -1456,7 +1521,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_fruity_odor"/>
-        <Class IRI="#perceived_fragrance"/>
+        <Class IRI="#perceived_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_fullness"/>
+        <Class IRI="#sensory_perception_process"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_gamey"/>
@@ -1547,6 +1616,14 @@
         <Class IRI="#perceived_tropical_fruit"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#perceived_hard"/>
+        <Class IRI="#perceived_mouthfeel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_hard"/>
+        <Class IRI="#perceived_tactile_stimulus"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#perceived_hawthorne"/>
         <Class IRI="#perceived_herbacious_aroma"/>
     </SubClassOf>
@@ -1560,7 +1637,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_heat"/>
-        <Class IRI="#perceived_tactile_stimulus"/>
+        <Class IRI="#perceived_temperature"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_height"/>
@@ -1613,6 +1690,10 @@
     <SubClassOf>
         <Class IRI="#perceived_hop_oil"/>
         <Class IRI="#perceived_hop_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_hue"/>
+        <Class IRI="#perceived_visible_light"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_husk"/>
@@ -1744,11 +1825,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_maillard_odor"/>
-        <Class IRI="#perceived_fragrance"/>
+        <Class IRI="#perceived_odor"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_malt_odor"/>
-        <Class IRI="#perceived_fragrance"/>
+        <Class IRI="#perceived_odor"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_maltiness"/>
@@ -1891,8 +1972,12 @@
         <Class IRI="#perceived_vegetal_odor"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#perceived_odor"/>
+        <Class IRI="#perceived_aroma"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#perceived_off_odor"/>
-        <Class IRI="#perceived_fragrance"/>
+        <Class IRI="#perceived_odor"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_oil_flavor"/>
@@ -2123,8 +2208,16 @@
         <Class IRI="#perceived_flavor"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#perceived_saturation"/>
+        <Class IRI="#perceived_visible_light"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_sensory_quality"/>
+        <Class IRI="#sensory_perception_process"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#perceived_shape"/>
-        <Class IRI="#perceived_visual_appearance"/>
+        <Class IRI="#perceived_visual_stimulus"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_sharpness"/>
@@ -2140,7 +2233,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_size"/>
-        <Class IRI="#perceived_visual_appearance"/>
+        <Class IRI="#perceived_visual_stimulus"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_smokiness"/>
@@ -2156,6 +2249,14 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_smoothness"/>
+        <Class IRI="#perceived_tactile_stimulus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_soft"/>
+        <Class IRI="#perceived_mouthfeel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_soft"/>
         <Class IRI="#perceived_tactile_stimulus"/>
     </SubClassOf>
     <SubClassOf>
@@ -2177,6 +2278,18 @@
     <SubClassOf>
         <Class IRI="#perceived_starfruit"/>
         <Class IRI="#perceived_tropical_fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_stimulus_location"/>
+        <Class IRI="#perceived_aroma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_stimulus_location"/>
+        <Class IRI="#perceived_audio_stimulus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_stimulus_location"/>
+        <Class IRI="#perceived_visual_stimulus"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_straw-like"/>
@@ -2216,7 +2329,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_sulfur_odor"/>
-        <Class IRI="#perceived_fragrance"/>
+        <Class IRI="#perceived_odor"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_sweetness"/>
@@ -2228,7 +2341,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_synthetic_odor"/>
-        <Class IRI="#perceived_fragrance"/>
+        <Class IRI="#perceived_odor"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_syrupy"/>
@@ -2257,6 +2370,18 @@
     <SubClassOf>
         <Class IRI="#perceived_tea"/>
         <Class IRI="#perceived_herbacious_flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_temperature"/>
+        <Class IRI="#perceived_electromagnetic_radiation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_temperature"/>
+        <Class IRI="#perceived_mouthfeel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_temperature"/>
+        <Class IRI="#perceived_tactile_stimulus"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_texture"/>
@@ -2328,7 +2453,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_vegetal_odor"/>
-        <Class IRI="#perceived_fragrance"/>
+        <Class IRI="#perceived_odor"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_vine_fruit"/>
@@ -2355,7 +2480,11 @@
         <Class IRI="#perceived_sensory_quality"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#perceived_visual_appearance"/>
+        <Class IRI="#perceived_visible_light"/>
+        <Class IRI="#perceived_electromagnetic_radiation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceived_visual_stimulus"/>
         <Class IRI="#perceived_sensory_quality"/>
     </SubClassOf>
     <SubClassOf>
@@ -2412,7 +2541,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_yeast_odor"/>
-        <Class IRI="#perceived_fragrance"/>
+        <Class IRI="#perceived_odor"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#perceived_yeasty"/>
@@ -2429,6 +2558,10 @@
     <SubClassOf>
         <Class IRI="#perceived_yeasty"/>
         <Class IRI="#perceived_yeast_odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sensory_perception_process"/>
+        <Class IRI="#behavioral_process"/>
     </SubClassOf>
 </Ontology>
 

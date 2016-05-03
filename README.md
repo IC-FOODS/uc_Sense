@@ -1,1 +1,1 @@
-# OntoSense
+# OntoSense: an ontology for the unambiguous characterization of sensory perception, qualities, and attributes.
